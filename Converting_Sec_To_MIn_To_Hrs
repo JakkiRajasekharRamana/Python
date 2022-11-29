@@ -1,0 +1,9 @@
+#Covert Sec tO min
+
+num=int(input("Enter In Sec:"))
+
+hrs=num//3600
+num1=num%3600
+min=num1//60
+sec=num%60
+print(hrs,':',min,':',sec)
