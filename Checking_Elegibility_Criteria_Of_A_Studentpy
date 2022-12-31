@@ -1,0 +1,15 @@
+#7)
+x=int(input('Total No Of Classes:'))
+y=int(input('Classes Attened By The Student:'))
+a=input('Does The Student Have Medical Leaves:')
+#Enter Y or N
+if(a=='Y'):
+    print("The Student Can Attend The Exam")
+else:
+    z=(y/x)
+    z1=z*100
+    
+    if(z1>=75):
+        print("The Student Can Attend The Exam")
+    else:
+        print("The Student Cannot Attend The Exam")
