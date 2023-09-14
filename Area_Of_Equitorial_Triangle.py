@@ -1,5 +1,5 @@
 #Find Area Of An Equitorial Triangle When A Side Is Given
-
+#The code should work in all cases
 
 s=int(input("Enter Value For One Side:"))
 
