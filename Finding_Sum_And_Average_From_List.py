@@ -1,7 +1,7 @@
 def funtion(L):
     x=sum(L)
     length=len(L)
-    return x/length
+    return (x/length)
 L=[]
 n=int(input('Enter no of elements in list:'))
 for i in range(n):
