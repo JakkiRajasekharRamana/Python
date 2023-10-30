@@ -8,3 +8,4 @@ for i in range(2):
         if(i<=j):
             print("*",end="")
     print('\n')
+
